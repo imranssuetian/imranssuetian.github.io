@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayEase Wallet - Imran's Portfolio</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="app-detail.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="../index.html">Imran</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="../index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../index.html#apps" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../index.html#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../index.html#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- App Detail Hero -->
+    <section class="app-hero" style="background: linear-gradient(135deg, #7C3AED 0%, #EC4899 100%);">
+        <div class="container">
+            <div class="app-hero-content">
+                <div class="app-hero-info">
+                    <div class="breadcrumb">
+                        <a href="../index.html">Home</a> > 
+                        <a href="../index.html#apps">Portfolio</a> > 
+                        <span>PayEase Wallet</span>
+                    </div>
+                    <h1 class="app-hero-title">PayEase Wallet</h1>
+                    <p class="app-hero-subtitle">Secure Digital Wallet & Payment Solution</p>
+                    <p class="app-hero-description">
+                        A cross-platform digital wallet application built with React Native, featuring Stripe integration 
+                        for secure payments, multi-currency support, and real-time transaction tracking for seamless 
+                        financial management.
+                    </p>
+                    <div class="app-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>Released: June 2024</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-users"></i>
+                            <span>25K+ Downloads</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-star"></i>
+                            <span>4.9/5 Rating</span>
+                        </div>
+                    </div>
+                    <div class="app-hero-buttons">
+                        <a href="#" class="btn btn-primary">
+                            <i class="fab fa-apple"></i> Download on App Store
+                        </a>
+                        <a href="#" class="btn btn-secondary">
+                            <i class="fab fa-google-play"></i> Get it on Google Play
+                        </a>
+                    </div>
+                </div>
+                <div class="app-hero-image">
+                    <div class="phone-mockup">
+                        <img src="../images/app2-screenshot.png" alt="PayEase Wallet Screenshot">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Features -->
+    <section class="app-features">
+        <div class="container">
+            <h2 class="section-title">Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon" style="background: linear-gradient(135deg, #7C3AED 0%, #EC4899 100%);">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Stripe Integration</h3>
+                    <p>Secure payment processing with industry-leading encryption and fraud protection for safe transactions.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon" style="background: linear-gradient(135deg, #7C3AED 0%, #EC4899 100%);">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Multi-Currency Support</h3>
+                    <p>Support for 40+ currencies with real-time exchange rates and automatic currency conversion.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon" style="background: linear-gradient(135deg, #7C3AED 0%, #EC4899 100%);">
+                        <i class="fas fa-history"></i>
+                    </div>
+                    <h3>Transaction History</h3>
+                    <p>Detailed transaction records with smart categorization, search, and export functionality.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon" style="background: linear-gradient(135deg, #7C3AED 0%, #EC4899 100%);">
+                        <i class="fas fa-qrcode"></i>
+                    </div>
+                    <h3>QR Code Payments</h3>
+                    <p>Quick and easy payments using QR codes for contactless transactions at supported merchants.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon" style="background: linear-gradient(135deg, #7C3AED 0%, #EC4899 100%);">
+                        <i class="fas fa-fingerprint"></i>
+                    </div>
+                    <h3>Biometric Security</h3>
+                    <p>Advanced security with fingerprint and Face ID authentication for secure app access.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon" style="background: linear-gradient(135deg, #7C3AED 0%, #EC4899 100%);">
+                        <i class="fas fa-sync"></i>
+                    </div>
+                    <h3>Real-time Sync</h3>
+                    <p>Instant synchronization across all devices with Firebase real-time database integration.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Stack -->
+    <section class="tech-stack">
+        <div class="container">
+            <h2 class="section-title">Technical Implementation</h2>
+            <div class="tech-content">
+                <div class="tech-overview">
+                    <h3>Cross-Platform Excellence</h3>
+                    <p>
+                        PayEase Wallet was developed using React Native to ensure consistent user experience across 
+                        iOS and Android platforms. The app leverages modern payment technologies and cloud services 
+                        to provide secure, scalable, and reliable financial transactions.
+                    </p>
+                </div>
+                <div class="tech-grid">
+                    <div class="tech-category">
+                        <h4><i class="fab fa-react"></i> Frontend</h4>
+                        <ul>
+                            <li>React Native 0.72</li>
+                            <li>TypeScript</li>
+                            <li>React Navigation 6</li>
+                            <li>React Native Reanimated</li>
+                        </ul>
+                    </div>
+                    <div class="tech-category">
+                        <h4><i class="fas fa-server"></i> Backend & APIs</h4>
+                        <ul>
+                            <li>Firebase Functions</li>
+                            <li>Stripe API</li>
+                            <li>REST API Integration</li>
+                            <li>Real-time Database</li>
+                        </ul>
+                    </div>
+                    <div class="tech-category">
+                        <h4><i class="fas fa-shield-alt"></i> Security & Auth</h4>
+                        <ul>
+                            <li>Firebase Authentication</li>
+                            <li>Biometric Authentication</li>
+                            <li>End-to-end Encryption</li>
+                            <li>PCI DSS Compliance</li>
+                        </ul>
+                    </div>
+                    <div class="tech-category">
+                        <h4><i class="fas fa-tools"></i> Development Tools</h4>
+                        <ul>
+                            <li>Expo Development</li>
+                            <li>CodePush Updates</li>
+                            <li>Flipper Debugging</li>
+                            <li>Jest Testing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Gallery -->
+    <section class="screenshots-gallery">
+        <div class="container">
+            <h2 class="section-title">App Screenshots</h2>
+            <div class="screenshots-grid">
+                <div class="screenshot-item">
+                    <img src="../images/app2-screenshot.png" alt="Wallet Dashboard">
+                    <div class="screenshot-caption">Wallet Dashboard</div>
+                </div>
+                <div class="screenshot-item">
+                    <img src="../images/app2-screenshot.png" alt="Payment Flow">
+                    <div class="screenshot-caption">Payment Processing</div>
+                </div>
+                <div class="screenshot-item">
+                    <img src="../images/app2-screenshot.png" alt="Transaction History">
+                    <div class="screenshot-caption">Transaction History</div>
+                </div>
+                <div class="screenshot-item">
+                    <img src="../images/app2-screenshot.png" alt="Currency Exchange">
+                    <div class="screenshot-caption">Currency Exchange</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Challenges & Solutions -->
+    <section class="challenges-section">
+        <div class="container">
+            <h2 class="section-title">Development Challenges & Solutions</h2>
+            <div class="challenges-grid">
+                <div class="challenge-item">
+                    <h3>Payment Security</h3>
+                    <div class="challenge-content">
+                        <p><strong>Challenge:</strong> Implementing secure payment processing while maintaining smooth user experience.</p>
+                        <p><strong>Solution:</strong> Integrated Stripe's secure payment infrastructure with custom encryption layers and biometric authentication.</p>
+                    </div>
+                </div>
+                <div class="challenge-item">
+                    <h3>Cross-Platform Consistency</h3>
+                    <div class="challenge-content">
+                        <p><strong>Challenge:</strong> Ensuring identical user experience across iOS and Android platforms.</p>
+                        <p><strong>Solution:</strong> Created a comprehensive design system with platform-specific adaptations using React Native best practices.</p>
+                    </div>
+                </div>
+                <div class="challenge-item">
+                    <h3>Real-time Updates</h3>
+                    <div class="challenge-content">
+                        <p><strong>Challenge:</strong> Providing instant transaction updates and balance synchronization.</p>
+                        <p><strong>Solution:</strong> Implemented Firebase real-time database with optimistic UI updates and conflict resolution strategies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Next App Navigation -->
+    <section class="app-navigation">
+        <div class="container">
+            <div class="nav-apps">
+                <div class="nav-app prev">
+                    <a href="healthtracker-pro.html">
+                        <i class="fas fa-arrow-left"></i>
+                        <span>Previous App</span>
+                    </a>
+                </div>
+                <div class="nav-app next">
+                    <a href="taskflow-manager.html">
+                        <span>Next App</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Imran. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/yourusername" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:your.email@example.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

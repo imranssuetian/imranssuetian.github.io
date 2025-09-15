@@ -1,15 +1,512 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Imran Shah | Mobile App Developer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imran | Senior iOS & React Native Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-  <h1>Hi, I'm Imran 👋</h1>
-  <p>Senior iOS & React Native Developer</p>
-  <h2>My Apps</h2>
-  <ul>
-    <li>📱 <a href="https://apps.apple.com/app/yourapp">App 1</a></li>
-    <li>📱 <a href="https://play.google.com/store/apps/details?id=yourapp">App 2</a></li>
-  </ul>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Imran</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#apps" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="gradient-text">Imran</span></h1>
+                <h2 class="hero-subtitle">Senior iOS & React Native Developer</h2>
+                <p class="hero-description">
+                    Passionate about building high-quality mobile applications that make a difference. 
+                    I specialize in iOS development, React Native, and cross-platform solutions with 
+                    a focus on user experience and performance.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#apps" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-snippet">
+                    <div class="code-header">
+                        <div class="dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <span>iOS Development</span>
+                    </div>
+                    <div class="code-content">
+                        <code>
+                            <span class="keyword">import</span> <span class="class">UIKit</span><br>
+                            <span class="keyword">import</span> <span class="class">SwiftUI</span><br><br>
+                            <span class="keyword">class</span> <span class="class">ViewController</span>: <span class="class">UIViewController</span> {<br>
+                            &nbsp;&nbsp;<span class="keyword">override</span> <span class="keyword">func</span> <span class="function">viewDidLoad</span>() {<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">super</span>.<span class="function">viewDidLoad</span>()<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">// Magic happens here ✨</span><br>
+                            &nbsp;&nbsp;}<br>
+                            }
+                        </code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apps Section -->
+    <section id="apps" class="apps-section">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <p class="section-subtitle">Mobile applications I've built and published</p>
+            
+            <div class="apps-grid">
+                <!-- Aadios - Music & Video Streaming App -->
+                <div class="app-card">
+                    <div class="app-image">
+                        <img src="images/aadios/aadios-play.png" alt="Aadios Screenshot" loading="lazy">
+                    </div>
+                    <div class="app-content">
+                        <h3 class="app-title">Aadios</h3>
+                        <p class="app-description">
+                            A personalized music & video streaming app inspired by YouTube with custom interface, 
+                            playlist management, radio streaming, and tailored recommendations.
+                        </p>
+                        <div class="app-tech">
+                            <span class="tech-tag">iOS</span>
+                            <span class="tech-tag">Swift</span>
+                            <span class="tech-tag">YouTube API</span>
+                        </div>
+                        <div class="app-links">
+                            <a href="apps/aadios.html" class="btn btn-outline">
+                                <i class="fas fa-info-circle"></i> View Details
+                            </a>
+                            <a href="#" class="app-link app-store" target="_blank">
+                                <i class="fab fa-apple"></i> App Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AtlasHXM - HR Management App -->
+                <div class="app-card">
+                    <div class="app-image">
+                        <img src="images/atlasHXM/atlas-home.png" alt="AtlasHXM Screenshot" loading="lazy">
+                    </div>
+                    <div class="app-content">
+                        <h3 class="app-title">AtlasHXM</h3>
+                        <p class="app-description">
+                            Comprehensive HR mobile app for payroll, benefits, time-off requests, and employee onboarding 
+                            with biometric security and document management.
+                        </p>
+                        <div class="app-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Face ID</span>
+                            <span class="tech-tag">REST APIs</span>
+                        </div>
+                        <div class="app-links">
+                            <a href="apps/atlashxm.html" class="btn btn-outline">
+                                <i class="fas fa-info-circle"></i> View Details
+                            </a>
+                            <a href="#" class="app-link app-store" target="_blank">
+                                <i class="fab fa-apple"></i> App Store
+                            </a>
+                            <a href="#" class="app-link play-store" target="_blank">
+                                <i class="fab fa-google-play"></i> Play Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- EstatePie - Property Management -->
+                <div class="app-card">
+                    <div class="app-image">
+                        <img src="images/estatePie/estate-pie-dashboard.png" alt="EstatePie Screenshot" loading="lazy">
+                    </div>
+                    <div class="app-content">
+                        <h3 class="app-title">EstatePie</h3>
+                        <p class="app-description">
+                            Complete property management solution for landlords and tenants with billing, payments, 
+                            maintenance requests, and automated reporting features.
+                        </p>
+                        <div class="app-tech">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                        <div class="app-links">
+                            <a href="apps/estatepie.html" class="btn btn-outline">
+                                <i class="fas fa-info-circle"></i> View Details
+                            </a>
+                            <a href="#" class="app-link app-store" target="_blank">
+                                <i class="fab fa-apple"></i> App Store
+                            </a>
+                            <a href="#" class="app-link play-store" target="_blank">
+                                <i class="fab fa-google-play"></i> Play Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- iMuslim - Prayer Times & Islamic App -->
+                <div class="app-card">
+                    <div class="app-image">
+                        <img src="images/iMuslim/imuslim-prayer-times.png" alt="iMuslim Screenshot" loading="lazy">
+                    </div>
+                    <div class="app-content">
+                        <h3 class="app-title">iMuslim</h3>
+                        <p class="app-description">
+                            Best Islamic app with accurate prayer times, Quran, Qibla compass with AR, 
+                            Tasbeeh counter, Islamic calendar, and beautiful Athan sounds.
+                        </p>
+                        <div class="app-tech">
+                            <span class="tech-tag">Swift</span>
+                            <span class="tech-tag">ARKit</span>
+                            <span class="tech-tag">Core Location</span>
+                        </div>
+                        <div class="app-links">
+                            <a href="apps/imuslim.html" class="btn btn-outline">
+                                <i class="fas fa-info-circle"></i> View Details
+                            </a>
+                            <a href="#" class="app-link app-store" target="_blank">
+                                <i class="fab fa-apple"></i> App Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Jino - Car Care Services -->
+                <div class="app-card">
+                    <div class="app-image">
+                        <img src="images/jino/jino-home.png" alt="Jino Screenshot" loading="lazy">
+                    </div>
+                    <div class="app-content">
+                        <h3 class="app-title">Jino</h3>
+                        <p class="app-description">
+                            Mobile car wash and maintenance app for UAE. Book doorstep car services including 
+                            wash, detailing, oil change, and battery replacement at your convenience.
+                        </p>
+                        <div class="app-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Maps API</span>
+                            <span class="tech-tag">Payment Gateway</span>
+                        </div>
+                        <div class="app-links">
+                            <a href="apps/jino.html" class="btn btn-outline">
+                                <i class="fas fa-info-circle"></i> View Details
+                            </a>
+                            <a href="#" class="app-link app-store" target="_blank">
+                                <i class="fab fa-apple"></i> App Store
+                            </a>
+                            <a href="#" class="app-link play-store" target="_blank">
+                                <i class="fab fa-google-play"></i> Play Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NasMaps - Service Provider Platform -->
+                <div class="app-card">
+                    <div class="app-image">
+                        <img src="images/nasmaps/nasmaps-map.png" alt="NasMaps Screenshot" loading="lazy">
+                    </div>
+                    <div class="app-content">
+                        <h3 class="app-title">NasMaps</h3>
+                        <p class="app-description">
+                            Local service provider discovery platform connecting service providers with customers 
+                            through interactive maps and neighborhood-based listings.
+                        </p>
+                        <div class="app-tech">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">Google Maps</span>
+                            <span class="tech-tag">Firebase</span>
+                        </div>
+                        <div class="app-links">
+                            <a href="apps/nasmaps.html" class="btn btn-outline">
+                                <i class="fas fa-info-circle"></i> View Details
+                            </a>
+                            <a href="#" class="app-link app-store" target="_blank">
+                                <i class="fab fa-apple"></i> App Store
+                            </a>
+                            <a href="#" class="app-link play-store" target="_blank">
+                                <i class="fab fa-google-play"></i> Play Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NRTC Fresh - Grocery E-commerce -->
+                <div class="app-card">
+                    <div class="app-image">
+                        <img src="images/nrtc/nrtc-home.png" alt="NRTC Fresh Screenshot" loading="lazy">
+                    </div>
+                    <div class="app-content">
+                        <h3 class="app-title">NRTC Fresh</h3>
+                        <p class="app-description">
+                            Fresh fruits and vegetables e-commerce app with 40+ years of market experience, 
+                            free home delivery, and seamless online shopping experience.
+                        </p>
+                        <div class="app-tech">
+                            <span class="tech-tag">iOS</span>
+                            <span class="tech-tag">Swift</span>
+                            <span class="tech-tag">E-commerce</span>
+                        </div>
+                        <div class="app-links">
+                            <a href="apps/nrtc.html" class="btn btn-outline">
+                                <i class="fas fa-info-circle"></i> View Details
+                            </a>
+                            <a href="#" class="app-link app-store" target="_blank">
+                                <i class="fab fa-apple"></i> App Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RocheMe - Medical Information Platform -->
+                <div class="app-card">
+                    <div class="app-image">
+                        <img src="images/rocheMe/roche-me-1.png" alt="RocheMe Screenshot" loading="lazy">
+                    </div>
+                    <div class="app-content">
+                        <h3 class="app-title">RocheMe</h3>
+                        <p class="app-description">
+                            Medical information platform for healthcare professionals with literature access, 
+                            congress information, KOL consultations, and digital pathology training.
+                        </p>
+                        <div class="app-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Medical APIs</span>
+                            <span class="tech-tag">Video Streaming</span>
+                        </div>
+                        <div class="app-links">
+                            <a href="apps/rocheme.html" class="btn btn-outline">
+                                <i class="fas fa-info-circle"></i> View Details
+                            </a>
+                            <a href="#" class="app-link app-store" target="_blank">
+                                <i class="fab fa-apple"></i> App Store
+                            </a>
+                            <a href="#" class="app-link play-store" target="_blank">
+                                <i class="fab fa-google-play"></i> Play Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rodeo - Social Media Management -->
+                <div class="app-card">
+                    <div class="app-image">
+                        <img src="images/rodeo/rodeo-home.png" alt="Rodeo Screenshot" loading="lazy">
+                    </div>
+                    <div class="app-content">
+                        <h3 class="app-title">Rodeo</h3>
+                        <p class="app-description">
+                            Social media management platform for small businesses with content scheduling, 
+                            team collaboration, and automated posting across multiple platforms.
+                        </p>
+                        <div class="app-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Social APIs</span>
+                            <span class="tech-tag">Content Management</span>
+                        </div>
+                        <div class="app-links">
+                            <a href="apps/rodeo.html" class="btn btn-outline">
+                                <i class="fas fa-info-circle"></i> View Details
+                            </a>
+                            <a href="#" class="app-link app-store" target="_blank">
+                                <i class="fab fa-apple"></i> App Store
+                            </a>
+                            <a href="#" class="app-link play-store" target="_blank">
+                                <i class="fab fa-google-play"></i> Play Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Teddy Sleep - Sleep Tracking App -->
+                <div class="app-card">
+                    <div class="app-image">
+                        <img src="images/teddy-sleep/teddy-1.png" alt="Teddy Sleep Screenshot" loading="lazy">
+                    </div>
+                    <div class="app-content">
+                        <h3 class="app-title">Teddy Sleep</h3>
+                        <p class="app-description">
+                            Personalized sleep tracking app with an interactive sleep buddy, adventure gameplay, 
+                            and comprehensive sleep analytics to improve sleep quality.
+                        </p>
+                        <div class="app-tech">
+                            <span class="tech-tag">Swift</span>
+                            <span class="tech-tag">HealthKit</span>
+                            <span class="tech-tag">Apple Watch</span>
+                        </div>
+                        <div class="app-links">
+                            <a href="apps/teddy-sleep.html" class="btn btn-outline">
+                                <i class="fas fa-info-circle"></i> View Details
+                            </a>
+                            <a href="#" class="app-link app-store" target="_blank">
+                                <i class="fab fa-apple"></i> App Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <p class="section-subtitle">Technologies I work with to bring ideas to life</p>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fab fa-apple"></i>
+                        iOS Development
+                    </h3>
+                    <div class="skills-list">
+                        <span class="skill-item">Swift</span>
+                        <span class="skill-item">iOS</span>
+                        <span class="skill-item">UIKit</span>
+                        <span class="skill-item">SwiftUI</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-mobile-alt"></i>
+                        Cross-Platform
+                    </h3>
+                    <div class="skills-list">
+                        <span class="skill-item">React Native</span>
+                        <span class="skill-item">Flutter</span>
+                        <span class="skill-item">Dart</span>
+                        <span class="skill-item">JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-server"></i>
+                        Backend & Services
+                    </h3>
+                    <div class="skills-list">
+                        <span class="skill-item">Firebase</span>
+                        <span class="skill-item">REST APIs</span>
+                        <span class="skill-item">GraphQL</span>
+                        <span class="skill-item">Node.js</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-cogs"></i>
+                        Specialized
+                    </h3>
+                    <div class="skills-list">
+                        <span class="skill-item">HealthKit</span>
+                        <span class="skill-item">Stripe</span>
+                        <span class="skill-item">Core Data</span>
+                        <span class="skill-item">Push Notifications</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Let's Work Together</h2>
+            <p class="section-subtitle">Ready to bring your mobile app idea to life?</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:your.email@example.com">your.email@example.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>GitHub</h3>
+                            <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-cta">
+                    <h3>Ready to start your project?</h3>
+                    <p>I'm always interested in new opportunities and exciting projects.</p>
+                    <a href="mailto:your.email@example.com" class="btn btn-primary">Send Message</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Imran. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/yourusername" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:your.email@example.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,115 @@
+"EstatePie offers property managers, landlords and tenants the following services:
+- Manage properties and tenants information
+- Manage payments and billing respective to their properties
+- Dashboard access; varies according to plan type
+- Alerts and events notifications
+- Messaging between listing owner and interested parties
+- Messaging between property owner/ manager and tenants
+- Monthly reporting (both manual and automatic)
+- Manage schedules for rent, utilities and specified payments
+EstatePie aims to provide a clean and uncluttered property management tool providing easy to use and practical features to make your property management seamless and as easy as pie"
+Subscription Info:
+Free:
+Free subscription is a package allowing users to first check the app most widely used features and then opt for the standard or the premium package. The following items are added in this subscription:
+1. Free subscription offers access to the web and mobile app
+2. Management of unlimited Tenants
+3. Management of properties up to 2 units
+4. Manage Billings and Payments
+5. Manage Maintenance Requests
+6. Ability for Automatic payments
+7. Ability to generate multiple invoices and reports
+8. Ability to import data in a CSV format
+9. Ability to create unlimited ADs and many more
+Standard:
+in this subscription:
+1. Standard monthly subscription offers access to the web and mobile app
+2. Management of unlimited Tenants
+3. Management of properties up to 500 units
+4. Manage Billings and Payments
+5. Manage Maintenance Requests
+6. Ability for Automatic payments
+7. Ability to generate multiple invoices and reports
+8. Ability to export reports in PDF and CSV formats
+9. Ability to create unlimited ADs
+Standard packages provides an modern age control and feel to the users. This is billed on a monthly recurring basis for an amount of $4.99 ($49.99 when billed annually) The following items are added
+
+
+Standard:
+in this subscription:
+1. Standard monthly subscription offers access to the web and mobile app
+2. Management of unlimited Tenants
+3. Management of properties up to 500 units
+4. Manage Billings and Payments
+5. Manage Maintenance Requests
+6. Ability for Automatic payments
+7. Ability to generate multiple invoices and reports
+8. Ability to export reports in PDF and CSV formats
+9. Ability to create unlimited ADs
+10. Ability to send broadcasted messages to all the users
+11. Manage Incident reports
+12. Admin Dashboard feature
+13. Ability to import data in a CSV Format
+14. Custom and automated reports and many more
+Standard packages provides an modern age control and feel to the users. This is billed on a monthly recurring basis for an amount of $4.99 ($49.99 when billed annually) The following items are added
+Premium:
+subscription:
+1. Premium monthly subscription offers access to the web and mobile app
+2. Management of unlimited Tenants
+3. Management of properties up to 500 units
+4. Manage Billings and Payments
+5. Manage Maintenance Requests
+6. Ability for Automatic payments
+7. Ability to generate multiple invoices and reports
+8. Ability to export reports in PDF and CSV formats
+9. Ability to create unlimited ADs
+10. Ability to send broadcasted messages to all the users
+11. Manage Incident reports
+12. Admin Dashboard feature
+13. Ability to import data in a CSV Format
+14. Custom and automated reports and many more
+15. Ability to conduct real-time chat with other tenants or landlords in case of need
+16. Manage Events requests and reports
+Premium packages provides an elite control and feel to the users. This is billed on a monthly recurring basis for an amount of $9.99 ($109.99 when billed annually) . The following items are added in this
+
+
+Premium:
+Premium packages provides an elite control and feel to the users. This is billed on a monthly recurring basis for an amount of $9.99 ($109.99 when billed annually) . The following items are added in this 
+
+subscription:
+
+
+1. Premium monthly subscription offers access to the web and mobile app
+2. Management of unlimited Tenants
+
+3. Management of properties up to 500 units
+
+4. Manage Billings and Payments
+
+5. Manage Maintenance Requests
+
+6. Ability for Automatic payments
+
+
+7. Ability to generate multiple invoices and reports
+
+8. Ability to export reports in PDF and CSV formats
+9. Ability to create unlimited ADs
+
+
+10. Ability to send broadcasted messages to all the users
+11. Manage Incident reports
+
+12. Admin Dashboard feature
+
+13. Ability to import data in a CSV Format
+
+
+14. Custom and automated reports and many more
+
+15. Ability to conduct real-time chat with other tenants or landlords in case of need
+16. Manage Events requests and reports
+
+
+17. Lease reminders for reminding users about their lease before time
+
+18. Schedule automatic payments for bills and invoices

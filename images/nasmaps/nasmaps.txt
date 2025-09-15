@@ -1,0 +1,1 @@
+The Nas Maps app is a platform that facilitates the search and connection between service providers (Afraw) and service seekers. Through the platform, service providers can display their services and contact information on a map within the neighborhood they live in, making it easier to communicate with them.

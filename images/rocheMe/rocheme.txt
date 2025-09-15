@@ -1,0 +1,29 @@
+Medikaynak mobile application was created by Roche Müstahzarları San. A.Ş. as a resource where healthcare professionals can access up-to-date medical information on various therapeutic areas on a daily basis.
+
+The application includes the following features:
+
+Current Turkish literature summaries
+
+Access to reference articles
+
+Detailed information about congresses
+
+Comprehensive medical information about therapeutic areas, physician videos, literature search
+
+Case consultations with key opinion leader (KOL) physicians
+
+Live training opportunities with KOL physicians
+
+Digital pathology training under the guidance of KOL physicians
+
+Medical calculation tools you may need
+
+Detailed product information (MOA videos, indications, SPC/PI and reimbursement details)
+
+Access to the most up-to-date information on all drugs available in Türkiye (safety precautions, dosage, SPC/PI/reimbursement texts, etc.)
+
+Easy search and access functionality
+
+Thank you for using Medikaynak! We listened to our users’ feedback and made updates to ensure accurate and fast access to medical information.
+
+This application was created by Roche Müstahzarları San. A.Ş. The information provided on this site is not intended for diagnostic or medical advice purposes, but for informational purposes only. If you have a disease that requires treatment or believe you may have one, please consult a qualified physician.

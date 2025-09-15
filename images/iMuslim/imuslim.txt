@@ -1,0 +1,27 @@
+Known as the best mobile app for Athan and prayer times, our app is used by millions of Muslims around the world. Athan brings you the most accurate prayer times and many other features such as Quran, Tasbeeh, Islamic Calendar, Compass to locate the Qiblah, Ramadan 2022.
++ You can now visualize the Qibla using Augmented Reality. We are hamdolilah the first Islamic application to offer this feature to our users
++ Full Athan: Athan Pro is the only app on the store to offer this important and unique feature
+Use Athan Pro to:
+- View your daily dashboard for Ramadan 2021: Contains all the prayer times for the day in addition to the remaining time for each of them.
+- Accurate time such as Suhur, Fajr, Zuhr, Asr, Iftar, Maghrib and Isha.
+- Listen to the Holy Quran
+- Qibla: Either you're at home or traveling this feature will help you locating the Qibla direction with less effort. Thanks to the integrated compass. See the distance between your location and the Kaaba.
+You can also now use Qibla with ARKit and a choice of different prayer mats.
+- Dynamic wallpapers that change according to the time of the next prayer.
+- Wallpapers: We selected stunning backgrounds (Mosque, Minaret, Gradient colors, Sunset etc.) to apply to the app or to save to your photo album. Each picture has been selected to deliver a high-quality res to fit all your devices.
+- Azan sounds: Listen to the most beautiful azan from all around the world.
+- Today's Extension (Widget): Designed to give you an overall view of your daily prayers without having to open the app constantly.
+- Apple Watch: Install the Apple watch version & enjoy having the prayer times on your wrist.
+- Use 3D touch shortcuts to quickly accomplish tasks such as accessing your daily prayers dashboard or locating the Qibla direction
+- Iftar and tarawih time (Iqama)
+- Hadith & Picture of the Day
+- Calendar with of religious holidays
+- Islamic greeting cards
+- Monthly schedule (imsakiye) for prayer time
+- Send funny Halal Muslim Emojis (Hijab etc.) to your friends & family.
+- Tasbeeh with phonetic support, French & English
+- Azkar before, during & after the prayer
+- Display of 99 names of Allah.
+- Mosque and Halal places
+Please send us your feedback/remarks by email to our support. You will find the email in the app.
+

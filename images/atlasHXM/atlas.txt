@@ -1,0 +1,5 @@
+The Atlas mobile app streamlines your HR processes and provides easy access to your HR information, including payroll and benefits.
+Whether you're an onboarding candidate or a worksite employee, you can use the app to view and manage your profile information, banking information, pay slips, emergency details, and HR documents. Additionally, you can submit time-off requests and expenses, manage clock in/out, and receive notification alerts.
+Onboarding candidates can also use the app to input personal profile information, banking information, and emergency details, upload onboarding documents, sign onboarding documents, complete onboarding information, and use face identification to upload ID documents and selfies to verify information.
+The Atlas mobile app offers exceptional support and management for EOR services and seamlessly integrates with the web platform.
+(Note: The app features face identification and fingerprint authentication for added security will be available at coming new release.)
