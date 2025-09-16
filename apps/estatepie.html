@@ -9,33 +9,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <a href="../index.html">Imran</a>
-            </div>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="../index.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="../index.html#apps" class="nav-link">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="../index.html#skills" class="nav-link">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a href="../index.html#contact" class="nav-link">Contact</a>
-                </li>
-            </ul>
-            <div class="nav-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </div>
-    </nav>
+    <!-- Header Component -->
+    <div id="header-placeholder"></div>
 
     <!-- App Detail Hero -->
     <section class="app-hero" style="background: linear-gradient(135deg, #10B981 0%, #059669 100%);">
@@ -194,28 +169,52 @@
             <h2 class="section-title">App Screenshots</h2>
             <div class="screenshots-grid">
                 <div class="screenshot-item">
-                    <img src="../images/estatePie/estate-pie-onboarding.png" alt="Onboarding">
+                    <div class="screenshot-phone-mockup">
+                        <img src="../images/estatePie/estate-pie-onboarding.png" alt="Onboarding">
+                    </div>
                     <div class="screenshot-caption">App Onboarding</div>
                 </div>
                 <div class="screenshot-item">
-                    <img src="../images/estatePie/estate-pie-dashboard-full.png" alt="Full Dashboard">
+                    <div class="screenshot-phone-mockup">
+                        <img src="../images/estatePie/estate-pie-dashboard-full.png" alt="Full Dashboard">
+                    </div>
                     <div class="screenshot-caption">Complete Dashboard</div>
                 </div>
                 <div class="screenshot-item">
-                    <img src="../images/estatePie/estate-pie-property-management.png" alt="Property Management">
+                    <div class="screenshot-phone-mockup">
+                        <img src="../images/estatePie/estate-pie-property-management.png" alt="Property Management">
+                    </div>
                     <div class="screenshot-caption">Property Management</div>
                 </div>
                 <div class="screenshot-item">
-                    <img src="../images/estatePie/estate-pie-billing-management.png" alt="Billing">
+                    <div class="screenshot-phone-mockup">
+                        <img src="../images/estatePie/estate-pie-billing-management.png" alt="Billing">
+                    </div>
                     <div class="screenshot-caption">Billing Management</div>
                 </div>
                 <div class="screenshot-item">
-                    <img src="../images/estatePie/estate-pie-earnings.png" alt="Earnings">
+                    <div class="screenshot-phone-mockup">
+                        <img src="../images/estatePie/estate-pie-earnings.png" alt="Earnings">
+                    </div>
                     <div class="screenshot-caption">Earnings Overview</div>
                 </div>
                 <div class="screenshot-item">
-                    <img src="../images/estatePie/estate-pie-requests-reports.png" alt="Reports">
+                    <div class="screenshot-phone-mockup">
+                        <img src="../images/estatePie/estate-pie-requests-reports.png" alt="Reports">
+                    </div>
                     <div class="screenshot-caption">Requests & Reports</div>
+                </div>
+                <div class="screenshot-item">
+                    <div class="screenshot-phone-mockup">
+                        <img src="../images/estatePie/estate-pie-dashboard.png" alt="Dashboard Overview">
+                    </div>
+                    <div class="screenshot-caption">Dashboard Overview</div>
+                </div>
+                <div class="screenshot-item">
+                    <div class="screenshot-phone-mockup">
+                        <img src="../images/estatePie/estate-pie-property-details.png" alt="Property Details">
+                    </div>
+                    <div class="screenshot-caption">Property Details</div>
                 </div>
             </div>
         </div>
@@ -271,26 +270,11 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <p>&copy; 2025 Imran. All rights reserved.</p>
-                <div class="social-links">
-                    <a href="https://github.com/yourusername" target="_blank" class="social-link">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="social-link">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="mailto:your.email@example.com" class="social-link">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <!-- Footer Component -->
+    <div id="footer-placeholder"></div>
 
+    <script src="../components/loader.js"></script>
     <script src="../script.js"></script>
+    <script src="lightbox.js"></script>
 </body>
 </html>
